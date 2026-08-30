@@ -1,0 +1,14 @@
+{
+  "name": "classone",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Ayush Jha",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
