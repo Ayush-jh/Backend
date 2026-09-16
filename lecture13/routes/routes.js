@@ -3,17 +3,17 @@ const {readOperation,employeGetById,create,updateData,deleteData} = require("../
 const api = require("../api/api")
 const router = express.Router()
 
-const app = express()
+const app = express();
 
 
-router.get("/main",readOperation)
+router.get("/main",readOperation);
 
-router.get("/employees/:id",employeGetById)
+router.get("/employees/:id",employeGetById);
 
-router.post("/employees",create)
+router.post("/employees",create);
 
-router.put("/employees/:id",updateData)
+router.put("/employees/:id",updateData);
 
-router.delete("/employees/:id",deleteData)
+router.delete("/employees/:id",deleteData);
 
-module.exports = router
+module.exports = router;
