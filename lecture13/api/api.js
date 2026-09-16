@@ -1,5 +1,5 @@
 const employees=[
-    [
+    
   {"empId":1,"name":"Rihan","salary":100000,"department":"IT"},
   {"empId":2,"name":"Shraddha","salary":60000,"department":"HR"},
   {"empId":3,"name":"Amit","salary":30000,"department":"Finance"},
@@ -100,7 +100,6 @@ const employees=[
   {"empId":98,"name":"Ramesh","salary":41000,"department":"Finance"},
   {"empId":99,"name":"Anjali","salary":77000,"department":"Marketing"},
   {"empId":100,"name":"Mukul","salary":51000,"department":"Sales"}
-]
 ]
 
 module.exports = employees
